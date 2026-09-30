@@ -1,6 +1,7 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.5.1+cpu
 torchvision==0.20.1+cpu
+opencv-python-headless
 ultralytics>=8.3.0
 transformers>=4.56
 sentence-transformers>=3.0
