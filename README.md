@@ -111,25 +111,33 @@ Trợ lý ảo trả lời câu hỏi dựa trên tài liệu chính sách của
 
 ### 🌼 Trang Phân loại ảnh
 
-![Phân loại ảnh](docs/screenshots/classify.png)
+<p align="center">
+  <img src="./phanloai.png" width="45%" />
+</p>
 
 > Tải ảnh một bông hoa, mô hình ResNet-18 trả về top-3 loài kèm độ tin cậy. Cảnh báo hiển thị nếu mô hình không chắc chắn.
 
 ### 🚗 Trang Phát hiện đối tượng
 
-![Phát hiện đối tượng](docs/screenshots/detect.png)
+<p align="center">
+  <img src="./phathiendoituong.png" width="45%" />
+</p>
 
 > YOLO11n phát hiện và khoanh vùng các đối tượng trong ảnh. Slider điều chỉnh ngưỡng tin cậy (confidence threshold).
 
 ### 🔎 Trang Tìm kiếm ảnh
 
-![Tìm kiếm ảnh](docs/screenshots/search.png)
+<p align="center">
+  <img src="./timkiem.png" width="45%" />
+</p>
 
 > Tìm kiếm ảnh bằng CLIP. Hỗ trợ cả truy vấn text (tiếng Anh) và truy vấn bằng ảnh mẫu.
 
 ### 💬 Trang Chatbot RAG
 
-![Chatbot](docs/screenshots/chat.png)
+<p align="center">
+  <img src="./chatbot.png" width="45%" />
+</p>
 
 > Trợ lý ShopLite trả lời dựa trên tài liệu chính sách. Câu trả lời stream từng token, có expandable để xem nguồn.
 
