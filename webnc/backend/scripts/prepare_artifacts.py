@@ -74,7 +74,7 @@ if FAST:
 train_ds = Subset(ImageFolder(FLOWERS_DIR, transform=clf.TRAIN_TF), train_idx)
 val_ds = Subset(ImageFolder(FLOWERS_DIR, transform=clf.EVAL_TF), val_idx)
 test_ds = Subset(ImageFolder(FLOWERS_DIR, transform=clf.EVAL_TF), test_idx)
-loader = lambda ds, shuffle: DataLoader(ds, batch_size=64, shuffle=shuffle, num_workers=2, pin_memory=DEVICE == "cuda")
+loader = lambda ds, shuffle: DataLoader(ds, batch_size=64, shuffle=shuffle, num_workers=0, pin_memory=DEVICE == "cuda")
 train_dl, val_dl, test_dl = loader(train_ds, True), loader(val_ds, False), loader(test_ds, False)
 
 EPOCHS = 1 if FAST else 5
