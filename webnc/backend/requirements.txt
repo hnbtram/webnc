@@ -1,5 +1,6 @@
-torch
-torchvision
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
 ultralytics>=8.3.0
 transformers>=4.56
 sentence-transformers>=3.0
@@ -10,3 +11,4 @@ uvicorn[standard]
 python-multipart
 pillow
 scikit-learn
+numpy<2
