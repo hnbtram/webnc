@@ -152,3 +152,7 @@ Trợ lý ảo trả lời câu hỏi dựa trên tài liệu chính sách của
 <p align="center">
   <img src="./slide.png" width="60%" />
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/DeepSeek-R1-4B32C3?logo=deepseek&amp;logoColor=white" alt="DeepSeek R1">
+</p>
