@@ -144,4 +144,11 @@ Trợ lý ảo trả lời câu hỏi dựa trên tài liệu chính sách của
 ---
 
 ## 🏗️ Kiến trúc
+<p align="center">
+  <img src="./kientruc.png" width="60%" />
+</p>
 
+## 📑 Tiến trình xây dựng
+<p align="center">
+  <img src="./slide.png" width="60%" />
+</p>
